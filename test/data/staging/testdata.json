@@ -1,0 +1,218 @@
+{
+   "NoPaymentCode": 
+   {
+    "bank_country_code": "US",
+    "account_name": "John Smith",
+    "account_number": "123",
+   "swift_code": "ICBCUSBJ",
+   "aba": "11122233A"
+   },
+
+   "InvalidPaymentCode": 
+   {
+   "payment_method": "NOTNOW",
+    "bank_country_code": "US",
+    "account_name": "John Smith",
+    "account_number": "123",
+   "swift_code": "ICBCUSBJ",
+   "aba": "11122233A"
+   },
+
+   "NoCountry": 
+   {
+   "payment_method": "SWIFT",
+    "account_name": "John Smith",
+    "account_number": "123",
+   "swift_code": "ICBCUKBJ",
+   "aba": "11122233A"
+   },
+
+   "CountryUK": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "UK",
+             "account_name": "John Smith",
+             "account_number": "123",
+            "swift_code": "ICBCUKBJ",
+            "aba": "11122233A"
+            },
+
+   "CountryUS": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "US",
+             "account_name": "John Smith",
+             "account_number": "123",
+            "swift_code": "ICBCUSBJ",
+            "aba": "11122233A"
+            },
+
+   "CountryCN": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "CN",
+             "account_name": "John R",
+             "account_number": "12435678",
+            "swift_code": "ICBKCNBJ",
+            "aba": "11122233A"
+            },
+
+   "CountryAU": 
+            {
+            "payment_method": "LOCAL",
+             "bank_country_code": "AU",
+             "account_name": "John J",
+             "account_number": "12435678",
+            "swift_code": "ICBKAUBJ",
+            "aba": "11122233A",
+            "bsb":"306057"
+            },
+
+   "CountryAU-InvalidBSB": 
+            {
+            "payment_method": "LOCAL",
+             "bank_country_code": "AU",
+             "account_name": "John J",
+             "account_number": "12435678",
+            "swift_code": "ICBKAUBJ",
+            "aba": "11122233A",
+            "bsb":"30607"
+            },
+
+   "CountryAU-NoBSB": 
+            {
+            "payment_method": "LOCAL",
+             "bank_country_code": "AU",
+             "account_name": "John J",
+             "account_number": "12435678",
+            "swift_code": "ICBKAUBJ",
+            "aba": "11122233A"
+            },
+
+   "CountryUS-InvalidABA": 
+            {
+            "payment_method": "LOCAL",
+             "bank_country_code": "US",
+             "account_name": "John J",
+             "account_number": "12435678",
+            "swift_code": "ICBKAUBJ",
+            "aba": "1112233A"
+            },
+
+   "CountryUS-NoABA": 
+            {
+            "payment_method": "LOCAL",
+             "bank_country_code": "US",
+             "account_name": "John J",
+             "account_number": "12435678",
+            "swift_code": "ICBKAUBJ"
+            },
+
+   "PaymentSWIFT-NoSWIFTCode": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "US",
+             "account_name": "John J",
+             "account_number": "12435678"
+            },
+
+   "CountryUS-PaymentSWIFT-InvalidSWIFTCode": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "US",
+             "account_name": "John J",
+             "account_number": "12435678",
+             "swift_code": "ICBKAUBJ"
+            },
+
+   "CountryAU-PaymentSWIFT-InvalidSWIFTCode": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "AU",
+             "account_name": "John J",
+             "account_number": "12435678",
+             "swift_code": "ICBKCVBJ"
+            },
+
+   "CountryCN-PaymentSWIFT-InvalidSWIFTCode": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "CN",
+             "account_name": "John J",
+             "account_number": "12435678",
+             "swift_code": "ICBKAUBJASW"
+            },
+
+   "CountryCN-PaymentSWIFT-InvalidSWIFTCodeLength": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "CN",
+             "account_name": "John J",
+             "account_number": "12435678",
+             "swift_code": "ICBKCNBJEADEGSDFF"
+            },
+
+   "CountryUS-NoAccountNumber": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "US",
+             "account_name": "John J",
+             "swift_code": "ICBCUSBJ"
+            },
+
+   "CountryUS-InvalidAccountNumber": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "US",
+             "account_name": "John J",
+             "account_number": "23A452345234523453523452345",
+             "swift_code": "ICBCUSBJ"
+            },
+
+   "CountryAU-InvalidAccountNumber": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "AU",
+             "account_name": "John J",
+             "account_number": "23A",
+             "bsb":"306057",
+             "swift_code": "ICBCAUBJ"
+            },
+
+   "CountryCN-InvalidAccountNumber": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "CN",
+             "account_name": "John J",
+             "account_number": "23F233A",
+             "swift_code": "ICBCCNBJ"
+            },
+
+   "CountryCN-NoAccountName": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "CN",
+             "account_number": "23F234343A",
+             "swift_code": "ICBCCNBJ"
+            },
+
+   "CountryUS-InvalidAccountName": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "US",
+             "account_name": "John JACKASDFFF",
+             "account_number": "23F234343A",
+             "swift_code": "ICBCUSBJ"
+            },
+
+   "CountryAU-InvalidAccountName": 
+            {
+            "payment_method": "SWIFT",
+             "bank_country_code": "AU",
+             "account_name": "John JACKASDFFF",
+             "account_number": "23F234343A",
+             "bsb":"306057",
+             "swift_code": "ICBCAUBJ"
+            }
+
+}
